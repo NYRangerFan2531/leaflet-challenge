@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+table {
+  width: 100%;
+  text-align: center
+}
+
+li::marker {
+  content: "*"
+}
+
+.legend {
+  line-height: 18px;
+  color: #555;
+  background-color: white;
+}
